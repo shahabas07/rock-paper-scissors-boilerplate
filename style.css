@@ -1,0 +1,135 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/bg.png);
+    color: white;
+    background-size: cover
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #5F27CD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3%
+}
+
+.top img {
+    width: 420px;
+    margin: 5% 0 0 170px;
+}
+
+.bottom img {
+    width: 40px;
+}
+
+.bottom p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    margin-left: 70%;
+    margin-top: -20px;
+}
+
+/* ----------------------------GAME--------------------- */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    background: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+#score {
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+} 
+
+#vs {
+    width: 80px;
+}
+
+.user {
+    border: 1px solid #fabc20;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.computer {
+    border: 1px solid #f3b927;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.play span {
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+#paper-logo,
+#rock-logo,
+#scissors-logo {
+    position: sticky;
+    width: 55px;
+    height: 55px;
+}
+
+.result {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+#playAgain {
+    background-color: #ffc434;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 0.6em;
+    border-radius: 5px;
+}
+#compimg{
+    width: 280px;
+} 

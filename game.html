@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper & Scissors</title>
+    <link rel="stylesheet" href="style.css  " />
+  </head>
+  <body>
+    <div class="container">
+      <div id="score">
+        <span>
+          <span id="userScore">0</span>
+          -
+          <span id="compScore">0</span>
+        </span>
+      </div>
+      <div class="play">
+        <div class="user">
+          <span >YOU</span>
+          <img id="userimage" src="" width="250px" />
+          <div id="options">
+            <img src="./assets/paper-logo.png" alt="" id="paper-logo" />
+            <img src="./assets/rock-logo.png" alt="" id="rock-logo" />
+            <img src="./assets/scissors-logo.png" alt="" id="scissors-logo" />
+          </div>
+        </div>
+        <img src="./assets/vs.png" alt="" id="vs" />
+        <div class="computer">
+          <span>COMP</span>
+          <img id="compimg" src="" />
+        </div>
+      </div>
+      <div class="result">
+        <span id="resultMatch"></span>
+        <div id="playAgain" style="visibility: hidden">Play Again</div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
